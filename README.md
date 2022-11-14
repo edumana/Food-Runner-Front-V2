@@ -45,7 +45,7 @@ Deployment Link
 
 ---------------------------------------------------------------
 
-**Future Developments:**
+**Future Features:**
 - Expand the app for multiple businesses to use
 - Adding a map of food trucks in the area 
 - AAU I want to allow my guests to schedule pizzas ahead of time
