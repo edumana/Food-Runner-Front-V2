@@ -1,0 +1,79 @@
+.container {
+  width: 320px;
+  height: 620px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid gray;
+  border-radius: 30px;
+  background-color: rgb(247, 247, 247);
+}
+
+.container input, textarea, select, button { 
+  width: 100%;
+  font-size: 14px;
+  font-weight: bold;
+  resize: vertical;
+  border-radius: 5px;
+  margin: 0;
+  border: 1px solid var(--border);
+  font-family: canada-type-gibson, sans-serif;
+  align-items: center;
+}
+
+.container textarea {
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.container label {
+  font-weight: 600;
+  margin: 7px 0px 14px 0px;
+}
+
+.container button {
+  color: white;
+  font-weight: 600;
+  height: 38px;
+} 
+
+.container a {
+  border: none;
+  font-size: 14px;
+  background: none;
+  font-weight: 500;
+  margin-top: 14px;
+  text-align: center;
+  color: rgb(200, 200, 200);
+}
+
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  border: 1px solid var(--primary);
+}
+
+.reviewSubmitBtn {
+  background-color: #5139F2;
+  width: 100%;
+  color: white;
+}
+
+.reviewForm{
+  width: 100%;
+  padding-bottom: 80px;
+  vertical-align: baseline;
+}
+
+.inputContainer {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  width: 300px;
+  height: 120px;
+  padding: 5px;
+  background-color: white;
+}
+
+h6 {
+  text-align: center;
+}

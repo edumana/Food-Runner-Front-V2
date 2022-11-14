@@ -1,0 +1,22 @@
+.containerFluid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border:none;
+  margin: 20px 0;
+  border:none;
+  padding: 0;
+}
+
+.crustDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid;
+  border-color: gray;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  margin: 0 10px;
+  background-color: white;
+}

@@ -1,0 +1,53 @@
+.container {
+  width: 320px;
+  height: 620px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid gray;
+  border-radius: 30px;
+  background-color: rgb(247, 247, 247);
+}
+
+.review {
+  border: 1ps solid gray;
+}
+
+.scroll{
+  height: 350px;
+  overflow-y: scroll;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+h6 {
+  text-align: center;
+  color: gray;
+}
+
+#login-b {
+  background-color: #5139F2;
+}
+
+#sign-b {
+  background-color: #119DA4;
+}
+
+
+@media only screen and (min-width: 900px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
