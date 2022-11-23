@@ -60,7 +60,7 @@ const App = () => {
         <Link to="/admin" style={{ textDecoration: 'underline #5139F2' }}>
           <p>Admin Dashboard</p>
         </Link>  
-        <p>(Add some pizzas and fullfill them using the admin dashboard!)</p>
+        <p>(Add pizzas and fullfill using the admin dashboard!)</p>
       </h4>
       <Routes>
         <Route
