@@ -4,8 +4,9 @@ import { Link } from 'react-router-dom'
 const Landing = () => {
   return (
     <>
-
-    
+      <div className='admin'>
+        <p style={{color: '#636363', fontSize: '0.95em'}}>Add some pizzas and then fullfill<br></br>using the admin dashboard!</p>
+      </div>
       <main className={styles.container}>
         <section className={styles.about}>
           <header>
