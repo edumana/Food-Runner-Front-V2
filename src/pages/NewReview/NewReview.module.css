@@ -78,3 +78,9 @@ input:focus, select:focus, textarea:focus {
 h6 {
   text-align: center;
 }
+
+.admin{
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+}

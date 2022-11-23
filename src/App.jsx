@@ -56,12 +56,6 @@ const App = () => {
   return (
     <>
       <div>
-      <h4 className='admin'>
-        <Link to="/admin" style={{ textDecoration: 'underline #5139F2' }}>
-          <p>Admin Dashboard</p>
-        </Link>  
-        <p>(Add pizzas and fullfill using the admin dashboard!)</p>
-      </h4>
       <Routes>
         <Route
           path="/"

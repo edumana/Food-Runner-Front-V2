@@ -36,6 +36,12 @@ const NewReview = (props) => {
   }
   return (
     <>
+    <h4 className='admin'>
+        <Link to="/admin" style={{ textDecoration: 'underline #5139F2', color: '#5139F2' }}>
+          <p>Admin Dashboard</p>
+        </Link>  
+        <p>(Now fullfill using the admin dashboard!)</p>
+    </h4>
     <main className={styles.container}>
     <section className={styles.about}>
           <header>
@@ -50,8 +56,6 @@ const NewReview = (props) => {
           </h6>
           </div>
           </header>
-          
-   
           <h6 className="mb-3">Please leave us a review:</h6>
     <form
       autoComplete="off"
