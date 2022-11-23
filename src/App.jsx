@@ -1,6 +1,6 @@
 // npm modules
 import { useState, useEffect } from 'react'
-import { Routes, Route, useNavigate } from 'react-router-dom'
+import { Routes, Route, useNavigate, Link } from 'react-router-dom'
 
 // page components
 import Signup from './pages/Signup/Signup'
@@ -55,7 +55,13 @@ const App = () => {
 
   return (
     <>
-      {/* <NavBar user={user} handleLogout={handleLogout} /> */}
+      <div>
+      <h4 className='admin'>
+        <Link to="/admin" style={{ textDecoration: 'underline #5139F2' }}>
+          <p>Admin Dashboard</p>
+        </Link>  
+        <p>(Add some pizzas and fullfill them using the admin dashboard!)</p>
+      </h4>
       <Routes>
         <Route
           path="/"
@@ -108,6 +114,8 @@ const App = () => {
           }
         />
       </Routes>
+      
+      </div>
     </>
   )
 }

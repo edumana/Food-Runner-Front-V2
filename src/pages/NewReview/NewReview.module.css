@@ -7,6 +7,7 @@
   border: 2px solid gray;
   border-radius: 30px;
   background-color: rgb(247, 247, 247);
+  margin: auto;
 }
 
 .container input, textarea, select, button { 

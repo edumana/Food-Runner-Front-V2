@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom'
 const Landing = () => {
   return (
     <>
+
+    
       <main className={styles.container}>
         <section className={styles.about}>
           <header>
@@ -32,7 +34,7 @@ const Landing = () => {
         </div>
         <div className="mt-5">
         <Link to="/admin" style={{ textDecoration: 'underline #5139F2' }}>
-          <p >Sign in as Business Owner</p>
+          <p>Admin Dashboard</p>
         </Link>  
           <p className='pt-2'>Powered by Food Runner, Inc. ©</p>
         </div>
