@@ -37,10 +37,10 @@ const NewReview = (props) => {
   return (
     <>
     <h4 className='admin'>
-        <Link to="/admin" style={{ textDecoration: 'underline #5139F2', color: '#5139F2' }}>
-          <p>Admin Dashboard</p>
+    <p>(Now fullfill using the admin dashboard!)</p>
+        <Link to="/admin" style={{ textDecoration: 'underline #5139F2'}}>
+          <p style={{color: '#119da4' }}>Admin Dashboard</p>
         </Link>  
-        <p>(Now fullfill using the admin dashboard!)</p>
     </h4>
     <main className={styles.container}>
     <section className={styles.about}>
