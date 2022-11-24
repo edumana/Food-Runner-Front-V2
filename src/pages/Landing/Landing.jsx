@@ -5,7 +5,10 @@ const Landing = () => {
   return (
     <>
       <div className='admin'>
-        <p style={{color: '#636363', fontSize: '0.95em'}}>Add some pizzas and then fullfill<br></br>using the admin dashboard!</p>
+        <p style={{color: '#636363', fontSize: '0.95em'}}>Open the Admin dashboard on a second tab<br></br>and see the orders coming in!</p>
+        <Link to="/admin" target="_blank" style={{ textDecoration: 'underline #5139F2'}}>
+          <p style={{color: '#119da4', fontSize: '1.2em' }}>Admin Dashboard</p>
+        </Link>  
       </div>
       <main className={styles.container}>
         <section className={styles.about}>

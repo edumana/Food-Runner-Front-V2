@@ -6,7 +6,6 @@ import KitchenOrder from "../../components/KitchenOrder/KitchenOrder"
 
 const Admin = (props) => {
   
-  const location = useLocation()
   const [orderData, setOrderData] = useState([])
   const [orderUpdate, setOrderUpdate] = useState(0)
   const [sales, setSales] = useState(0)
@@ -20,7 +19,7 @@ const Admin = (props) => {
       setOrderData(orderData.reverse())
     }
     fetchOrders()
-  }, [orderUpdate])
+  }, [orderData])
 
   const handleFulfilled = (id, order) => {
     
