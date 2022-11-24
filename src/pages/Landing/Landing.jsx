@@ -5,7 +5,7 @@ const Landing = () => {
   return (
     <>
       <div className='admin'>
-        <p style={{color: '#1b1b1b', fontSize: '0.95em'}}>Sign-up to order some pizza! Then open the Admin dashboard<br></br>on a second tab and see the orders coming in!</p>
+        <p style={{color: '#1b1b1b', fontSize: '0.95em'}}>Sign-up to order some pizza and open the Admin dashboard<br></br>on a second tab to see live orders coming in!</p>
         <Link to="/admin" target="_blank" style={{ textDecoration: 'underline #5139F2'}}>
           <p style={{color: '#119da4', fontSize: '1.2em' }}>Admin Dashboard</p>
         </Link>  
