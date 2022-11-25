@@ -12,7 +12,8 @@ const Admin = (props) => {
   const [numberOrders, setNumberOrders] = useState(0)
 
   const navigate = useNavigate()
-
+  setOrderData([])
+  
   useEffect(() => {
     const fetchOrders = async () => {
       const orderData = await orderService.getAll()
