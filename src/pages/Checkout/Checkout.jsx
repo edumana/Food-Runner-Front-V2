@@ -74,7 +74,7 @@ const Checkout = (props) => {
     <div className={styles.parent}>
       <div className={styles.div1}>
         <h1>Pizza Pirates</h1>
-        <h6>Your Order:</h6>
+        <h6>Your Receipt:</h6>
       </div>
       <div className={styles.div2}>
         <h5 style={{fontSize: '1em', textDecoration: 'underline'}}>Your Pizzas</h5>
@@ -107,7 +107,7 @@ const Checkout = (props) => {
           onSubmit={e => handleContinue(e)}
           className={styles.container}
         >
-          <button type="submit" className="btn btn-success" id={styles['checkout']}>Checkout</button>
+          <button type="submit" className="btn btn-success" id={styles['checkout']}>Done</button>
         </form>
 
         <form
@@ -115,7 +115,7 @@ const Checkout = (props) => {
           onSubmit={e => handleDelete(e)}
           className={styles.container}
         >
-          <button type="submit" className="btn btn-success" id={styles['delete']}>Delete Cart</button>
+          <button type="submit" className="btn btn-success" id={styles['delete']}>Cancel Order</button>
         </form>
 
       </div>
